@@ -27,13 +27,13 @@
 
 		// And every time the window is resized
 		$(window).on('resize', function () {
-		    if (resizeTimeout) return;
+			if (resizeTimeout) return;
 
-	    	// Will execute at a rate of 15fps
+		// Will execute at a rate of 15fps
 			resizeTimeout = setTimeout(function() {
 				resizeTimeout = null;
 				downBoy(); // Run again
-	    	}, 66);
+		}, 66);
 		});
 	});
 
