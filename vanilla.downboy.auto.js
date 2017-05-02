@@ -4,6 +4,8 @@
  * This file is a fork of jQuery.downBoy.auto for Vanilla JS
  */
 
+/*global downBoy*/
+
 (function (exports, augment, $) {
 	'use strict'
 	augment(Array, ['forEach'])
@@ -33,7 +35,7 @@
 			resizeTimeout = setTimeout(function() {
 				resizeTimeout = null
 				downBoy() // Run again
-		}, 66)
+			}, 66)
 		})
 	})
 
