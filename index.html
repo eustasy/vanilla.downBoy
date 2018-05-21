@@ -10,7 +10,7 @@
 		<meta name="keywords" content="vanilla.downBoy vanilla push footer bottom plugin css javascript eustasy Labs">
 		<meta name="description" content="vanilla.downBoy is a small JavaScript Plugin to push the footer to the bottom of the page.">
 		<title>vanilla.downBoy &nbsp;&middot;&nbsp; eustasy Labs</title>
-		<link rel="stylesheet" href="https://cdn.jsdelivr.net/g/normalize,colors.css">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/combine/gh/eustasy/Colors.css@1/colors.min.css,gh/necolas/normalize.css@8/normalize.min.css">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Lusitana|Source+Code+Pro" data-noprefix>
 		<link rel="stylesheet" href="/assets/css/grid.min.css">
 		<link rel="stylesheet" href="/assets/css/labs.css">
@@ -37,7 +37,7 @@
 			<div class="whole smablet-half">
 				<p class="text-left">vanilla.downBoy is a small vanilla plugin to push the footer to the bottom of the page You might want to take a look at the <a href="vanilla.downboy.js">unminified version</a> if you want to understand what it is doing.</p>
 				<p>
-					<!--<a class="button rounded display-inline-block background-white color-belize-hole" href="http://www.jsdelivr.com/?query=eustasy">CDN Delivery</a>-->
+					<a class="button rounded display-inline-block background-white color-belize-hole" href="https://www.jsdelivr.com/package/gh/eustasy/vanilla.downBoy">CDN Delivery</a>
 					<a class="button rounded display-inline-block background-white color-belize-hole" href="https://github.com/eustasy/vanilla.downBoy">GitHub</a>
 				</p>
 				<p class="text-left">Auto run on the <code class="display-inline-block rounded background-clouds">footer</code> element:</p>
@@ -60,13 +60,14 @@
 		<footer>
 			<hr class="section-breaker">
 			<p>This is the footer. It should be absolutely positioned at the bottom of the page by <a href="https://github.com/eustasy/vanilla.downBoy">downBoy</a> unless it was already there.</p>
-			<p>You can download this from <a href="https://github.com/eustasy/vanilla.downBoy/releases">GitHub</a> or get it delivered by <a href="http://www.jsdelivr.com/?query=eustasy">jsDelivr</a> (I highly recommend their multi-CDN file-combiner).</p>
+			<p>You can download this from <a href="https://github.com/eustasy/vanilla.downBoy/releases">GitHub</a> or get it delivered by <a href="https://www.jsdelivr.com/package/gh/eustasy/vanilla.downBoy">jsDelivr</a> (I highly recommend their multi-CDN file-combiner).</p>
 		</footer>
 
-		<script src="https://cdn.jsdelivr.net/jquery/3.2.1/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/jquery/jquery@3/dist/jquery.min.js"></script>
 
-		<script src="https://cdn.jsdelivr.net/jquery.autosize/3.0.20/autosize.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/gh/jackmoore/autosize@4.0.2/dist/autosize.min.js"></script>
 		<script>$(function(){autosize($('textarea'));});</script>
+
 		<script>$('textarea').one('click',function(){$(this).select();});</script>
 		<script>$('textarea').dblclick(function(){$(this).select();});</script>
 
